@@ -1,0 +1,43 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/services" class="nav-link">Our Services</a>
+    <a href="/contact" class="nav-link">Contact us</a>
+  </nav>
+  <h1 class="page-title">Contact Us</h1>
+  
+  <div class="content">
+    <h2>Contact Information</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    
+    <h2>Send us a Message</h2>
+    <form action="/submit" method="POST">
+      <label>Name:</label>
+      <br>
+      <input type="text" id="name" name="name" class="form-input">
+      <br/>
+      
+      <label >Email:</label>
+      <br>
+      <input type="email" id="email" name="email" class="form-input">
+      <br/>
+      
+      <label>Message:</label>
+      <br>
+      <textarea id="message" name="message" class="form-input"></textarea>
+      <br/>
+      
+      <button type="submit" class="form-button">Submit</button>
+      <br/>
+    </form>
+  </div>
+</body>
+</html>
